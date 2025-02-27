@@ -13,7 +13,7 @@ import lombok.val;
 
 @SpringBootApplication
 @AllArgsConstructor
-public class Application implements CommandLineRunner {
+public class Main implements CommandLineRunner {
 
     @Autowired
     private ApplicationContext context;
@@ -25,7 +25,7 @@ public class Application implements CommandLineRunner {
     private IdentifyIpWhois identifyIpWhois;
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Main.class, args);
     }
 
     @Override

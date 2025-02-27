@@ -20,13 +20,13 @@ import org.springframework.context.ApplicationContext;
 import blarknes.whoisidentifier.identify.IdentifyIpWhois;
 import lombok.val;
 
-class ApplicationTests {
+class MainTests {
 
     private ApplicationContext context = mock(ApplicationContext.class);
     private ApplicationArguments appArgs = mock(ApplicationArguments.class);
     private IdentifyIpWhois identifyIpWhois = mock(IdentifyIpWhois.class);
 
-    private Application application = new Application(context, appArgs, identifyIpWhois);
+    private Main application = new Main(context, appArgs, identifyIpWhois);
 
     private final PrintStream standardOut = System.out;
     private final PrintStream standardErr = System.err;
