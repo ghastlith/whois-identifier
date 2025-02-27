@@ -1,5 +1,5 @@
 #Build
-FROM gradle:8.10.1-jdk17 AS BUILD
+FROM gradle:8.10.1-jdk17 AS build
 
 WORKDIR /usr/app/
 COPY . .
@@ -14,6 +14,6 @@ ENV APP_HOME=/usr/app/
 
 WORKDIR $APP_HOME
 
-COPY --from=BUILD $APP_HOME .
+COPY --from=build $APP_HOME .
 
 ENTRYPOINT exec java -jar $APP_HOME/build/libs/$JAR_NAME --ip=$IP
