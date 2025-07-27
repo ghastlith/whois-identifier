@@ -16,4 +16,6 @@ WORKDIR $APP_HOME
 
 COPY --from=build $APP_HOME .
 
+SHELL [ "/bin/bash", "-c" ]
+
 ENTRYPOINT exec java -jar $APP_HOME/build/libs/$JAR_NAME --ip=$IP
