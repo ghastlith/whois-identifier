@@ -24,12 +24,12 @@ public class Main implements CommandLineRunner {
     @Autowired
     private IdentifyIpWhois identifyIpWhois;
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         SpringApplication.run(Main.class, args);
     }
 
     @Override
-    public void run(String... args) {
+    public void run(final String... args) {
         val ip = appArgs.getOptionValues("ip");
 
         if (ip == null || ip.get(0).isBlank()) {
