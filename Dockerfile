@@ -1,5 +1,5 @@
 #Build
-FROM gradle:8.10.1-jdk17 AS build
+FROM gradle:8.10.1-jdk21 AS build
 
 WORKDIR /usr/app/
 COPY . .
@@ -7,7 +7,7 @@ COPY . .
 RUN gradle build
 
 # Package
-FROM openjdk:17
+FROM openjdk:21
 
 ENV JAR_NAME=whois-identifier-1.0.0.jar
 ENV APP_HOME=/usr/app/
