@@ -13,7 +13,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.val;
 
 /**
- * Component that will handle all actions from the ip identify process.
+ * Handles all actions from the ip identifying process.
  */
 @Component
 @RequiredArgsConstructor
@@ -23,7 +23,7 @@ public class IdentifyIpWhois {
     private final ObjectMapper objectMapper;
 
     /**
-     * Makes an HTTP GET request to the WHOIS api and builds an user readable
+     * Sends an HTTP GET request to the WHOIS api and builds an user readable
      * message based on the response from the request.
      *
      * @param ip the ip to be identified
