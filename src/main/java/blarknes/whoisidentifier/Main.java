@@ -32,7 +32,7 @@ public class Main implements CommandLineRunner {
     public void run(final String... args) {
         val ip = appArgs.getOptionValues("ip");
 
-        if (ip == null || ip.get(0).isBlank()) {
+        if (null == ip || ip.get(0).isBlank()) {
             shutdown("The argument IP is required", 1);
             return;
         }
