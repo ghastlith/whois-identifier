@@ -60,10 +60,10 @@ public class IdentifyIpWhois {
     }
 
     private String buildResponse(final JsonNode mappedBody) {
-        val ip = getValueFromJson(mappedBody,"ip").asText();
-        val type = getValueFromJson(mappedBody,"type").asText();
-        val country = getValueFromJson(mappedBody,"country").asText();
-        val isp = getValueFromJson(mappedBody,"connection/isp").asText();
+        val ip = getValueFromJson(mappedBody, "ip").asText();
+        val type = getValueFromJson(mappedBody, "type").asText();
+        val country = getValueFromJson(mappedBody, "country").asText();
+        val isp = getValueFromJson(mappedBody, "connection/isp").asText();
 
         return String.format(
             "%s %s is located on %s and belongs to %s",
