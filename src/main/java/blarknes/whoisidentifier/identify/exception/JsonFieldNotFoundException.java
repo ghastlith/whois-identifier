@@ -1,8 +1,8 @@
 package blarknes.whoisidentifier.identify.exception;
 
 /**
- * {@code JsonFieldNotFoundException} is the exception thrown when trying to
- * access an inexistent field on a JSON.
+ * {@code JsonFieldNotFoundException} is thrown when trying to access an
+ * inexistent field on a JSON.
  */
 public class JsonFieldNotFoundException extends RuntimeException {
 

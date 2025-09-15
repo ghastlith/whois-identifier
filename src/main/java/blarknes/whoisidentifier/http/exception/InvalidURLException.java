@@ -1,8 +1,8 @@
 package blarknes.whoisidentifier.http.exception;
 
 /**
- * {@code InvalidURLException} is the exception thrown when the url built
- * to be requested is not valid.
+ * {@code InvalidURLException} is thrown when the url built to be requested is
+ * not valid.
  */
 public class InvalidURLException extends RuntimeException {
 
