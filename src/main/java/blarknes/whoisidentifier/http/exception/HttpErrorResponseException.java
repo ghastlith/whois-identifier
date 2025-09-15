@@ -1,7 +1,7 @@
 package blarknes.whoisidentifier.http.exception;
 
 /**
- * {@code HttpErrorResponseException} is thrown when an HTTP Request returned
+ * {@link HttpErrorResponseException} is thrown when an HTTP Request returned
  * with a code that was not 2xx.
  */
 public class HttpErrorResponseException extends RuntimeException {
