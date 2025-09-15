@@ -1,7 +1,7 @@
 package blarknes.whoisidentifier.identify.exception;
 
 /**
- * {@code JsonParsingException} Is the exception thrown when parsing JSON
+ * {@code JsonParsingException} is the exception thrown when parsing JSON
  * encountered any problem.
  */
 public class JsonParsingException extends RuntimeException {
