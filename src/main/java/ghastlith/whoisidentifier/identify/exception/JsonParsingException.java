@@ -1,4 +1,4 @@
-package blarknes.whoisidentifier.identify.exception;
+package ghastlith.whoisidentifier.identify.exception;
 
 /**
  * {@link JsonParsingException} is thrown when parsing JSON encountered any

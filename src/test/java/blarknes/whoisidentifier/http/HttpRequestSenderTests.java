@@ -1,4 +1,4 @@
-package blarknes.whoisidentifier.http;
+package ghastlith.whoisidentifier.http;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.catchThrowable;
@@ -13,7 +13,7 @@ import java.net.http.HttpResponse;
 
 import org.junit.jupiter.api.Test;
 
-import blarknes.whoisidentifier.http.exception.HttpErrorResponseException;
+import ghastlith.whoisidentifier.http.exception.HttpErrorResponseException;
 import lombok.val;
 
 @SuppressWarnings({"rawtypes", "unchecked"})

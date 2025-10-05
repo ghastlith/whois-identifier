@@ -1,4 +1,4 @@
-package blarknes.whoisidentifier;
+package ghastlith.whoisidentifier;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -7,7 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import blarknes.whoisidentifier.identify.IdentifyIpWhois;
+import ghastlith.whoisidentifier.identify.IdentifyIpWhois;
 import lombok.AllArgsConstructor;
 import lombok.val;
 

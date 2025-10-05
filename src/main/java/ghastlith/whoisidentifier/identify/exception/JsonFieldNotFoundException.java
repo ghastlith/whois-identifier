@@ -1,4 +1,4 @@
-package blarknes.whoisidentifier.identify.exception;
+package ghastlith.whoisidentifier.identify.exception;
 
 /**
  * {@link JsonFieldNotFoundException} is thrown when trying to access an

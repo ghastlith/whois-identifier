@@ -1,4 +1,4 @@
-package blarknes.whoisidentifier.identify;
+package ghastlith.whoisidentifier.identify;
 
 import org.springframework.stereotype.Component;
 
@@ -6,9 +6,9 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import blarknes.whoisidentifier.http.HttpRequestSender;
-import blarknes.whoisidentifier.identify.exception.JsonFieldNotFoundException;
-import blarknes.whoisidentifier.identify.exception.JsonParsingException;
+import ghastlith.whoisidentifier.http.HttpRequestSender;
+import ghastlith.whoisidentifier.identify.exception.JsonFieldNotFoundException;
+import ghastlith.whoisidentifier.identify.exception.JsonParsingException;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
 

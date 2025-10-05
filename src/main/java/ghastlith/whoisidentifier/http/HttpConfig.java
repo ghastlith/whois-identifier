@@ -1,4 +1,4 @@
-package blarknes.whoisidentifier.http;
+package ghastlith.whoisidentifier.http;
 
 import java.net.http.HttpClient;
 

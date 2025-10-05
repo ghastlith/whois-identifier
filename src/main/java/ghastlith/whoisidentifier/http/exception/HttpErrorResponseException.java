@@ -1,4 +1,4 @@
-package blarknes.whoisidentifier.http.exception;
+package ghastlith.whoisidentifier.http.exception;
 
 /**
  * {@link HttpErrorResponseException} is thrown when an HTTP Request returned

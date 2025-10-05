@@ -1,4 +1,4 @@
-package blarknes.whoisidentifier.identify;
+package ghastlith.whoisidentifier.identify;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

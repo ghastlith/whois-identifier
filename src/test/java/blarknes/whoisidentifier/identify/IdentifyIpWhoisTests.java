@@ -1,4 +1,4 @@
-package blarknes.whoisidentifier.identify;
+package ghastlith.whoisidentifier.identify;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.catchThrowable;
@@ -11,8 +11,8 @@ import org.junit.jupiter.api.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import blarknes.whoisidentifier.http.HttpRequestSender;
-import blarknes.whoisidentifier.identify.exception.JsonFieldNotFoundException;
+import ghastlith.whoisidentifier.http.HttpRequestSender;
+import ghastlith.whoisidentifier.identify.exception.JsonFieldNotFoundException;
 import lombok.val;
 
 public class IdentifyIpWhoisTests {

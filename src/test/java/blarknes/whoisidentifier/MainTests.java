@@ -1,4 +1,4 @@
-package blarknes.whoisidentifier;
+package ghastlith.whoisidentifier;
 
 import static java.util.Collections.singletonList;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -17,7 +17,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.context.ApplicationContext;
 
-import blarknes.whoisidentifier.identify.IdentifyIpWhois;
+import ghastlith.whoisidentifier.identify.IdentifyIpWhois;
 import lombok.val;
 
 class MainTests {
