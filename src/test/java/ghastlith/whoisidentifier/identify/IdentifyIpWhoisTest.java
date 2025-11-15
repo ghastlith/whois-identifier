@@ -15,7 +15,7 @@ import ghastlith.whoisidentifier.http.HttpRequestSender;
 import ghastlith.whoisidentifier.identify.exception.JsonFieldNotFoundException;
 import lombok.val;
 
-public class IdentifyIpWhoisTests {
+public class IdentifyIpWhoisTest {
 
     private final HttpRequestSender mockHttpRequestSender = mock(HttpRequestSender.class);
 

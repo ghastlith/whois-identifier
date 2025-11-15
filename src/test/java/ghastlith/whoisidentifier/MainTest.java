@@ -20,7 +20,7 @@ import org.springframework.context.ApplicationContext;
 import ghastlith.whoisidentifier.identify.IdentifyIpWhois;
 import lombok.val;
 
-class MainTests {
+class MainTest {
 
     private ApplicationContext context = mock(ApplicationContext.class);
     private ApplicationArguments appArgs = mock(ApplicationArguments.class);
